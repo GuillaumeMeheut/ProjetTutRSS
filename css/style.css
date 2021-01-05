@@ -1,6 +1,6 @@
 :root {
   --color-background: white;
-  --color-color2: #a8bbff;
+  --color-maincolor: #a8bbff;
 }
 
 * {
@@ -13,8 +13,6 @@ html {
 }
 
 body {
-  position: relative;
-  font-family: "Lato", sans-serif;
   background: var(--color-background);
   color: var(--color-maincolor);
 }
