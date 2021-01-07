@@ -7,11 +7,26 @@
     <meta name="keywords" content="rss, articles, journaux" />
     <meta name="author" content="CM-MT-CB-GM" />
     <title>ProjetTutRSS</title>
-    <link rel="stylesheet" href="css/reboot.css" />
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="./css/reboot.css" />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <h1>COUCOU TEST</h1>
-    <!-- <script src="js/main.js"></script> -->
+
+    <!-- <input type="text" /> <button class="button">Ajoutez ce flux</button> -->
+
+    <p>Choissisez vos journaux</p>
+    <div>
+      <input type="checkbox" id="LeMonde" name="LeMonde" />
+      <label for="LeMonde">Le Monde</label>
+    </div>
+    <div>
+      <input type="checkbox" id="FranceBleuLimousin" name="FranceBleuLimousin" />
+      <label for="FranceBleuLimousin">France Bleu Limousin</label>
+    </div>
+
+    <ul class="articleContainer"></ul>
+
+    <script src="js/main.js"></script>
   </body>
 </html>

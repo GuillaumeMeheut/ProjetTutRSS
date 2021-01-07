@@ -1,7 +1,6 @@
 <?php
 // Ce script doit être appelé en assignant au paramètre 'flux' de la requête
 // l'url d'un flux rss. Le script va récupérer le contenu XML/RSS du flux puis
-/ le convertir au format JSON avant de retourner le tout au client.
 //
 // Exemple d'appel pour tester le fonctionnement du script depuis la bar d'adresse
 // de votre navigateur : rss2json.php?flux=https://www.lemonde.fr/campus/rss_full.xml
